@@ -1,0 +1,150 @@
+/*geral*/
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 16px;
+
+  text-align: center;
+
+  padding: 31px 20px 25px 33px;
+
+  margin: auto;
+
+  width: 100%;
+
+  background-color: #212121;
+
+
+}
+
+/*texto todo*/
+.logo{
+
+  border-radius: 0px 0px 15px 15px;
+  background-color: #ffffff;
+  width: 95%;
+  
+}
+
+
+.centro{
+  
+  width: 87%;
+  margin: 20px 10px 20px 80px;
+  text-align: center;
+
+}
+
+/*barra de cima */
+
+.login_cadastro {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 97%;
+
+  padding: 20px 20px 10px 20px;
+
+  background-color: rgb(18, 129, 118, 0.6);
+
+  border-radius: 0px 0px 15px 15px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  z-index: 100;
+
+}
+
+.navbar a {
+
+  position: relative;
+
+  font-size: 18px;
+
+  color: #ffffff;
+
+  font-weight: 500;
+
+  text-decoration: none;
+
+  margin-left: 40px;
+
+}
+
+/*titulo*/
+
+h1 {
+  color: #0e4c86;
+
+  font-size: 30px;
+
+  text-align: left;
+
+  padding: 30px 10px 0px 10px;
+
+}
+
+/*primeiro texto*/
+.texto_principal1 {
+
+  padding-top: 10px 0 px 10px 0px;
+  border-radius: 15px 15px 15px 15px;
+
+}
+
+
+/*segundo texto*/
+.titulo2{
+  
+  color: #4faae3;
+  text-align: left;
+  font-size: 20px;
+  padding: 0px 0px 0px 15px;
+  
+}
+
+/*especialização*/
+
+.atendimento_medico{
+  
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.titulo3{
+  
+  color: #2d54ae;
+  text-align: left;
+  font-size: 20px;
+  display: flex;
+  
+}
+
+
+/*imagem*/
+
+.imagens_especializacao{
+  
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.image1 {
+
+  width: 20%;
+  height: 20%;
+  padding-top: 30px;
+
+}
