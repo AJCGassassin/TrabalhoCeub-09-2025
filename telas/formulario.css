@@ -1,0 +1,236 @@
+/*geral*/
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 40px 20px 33px 20px;
+  margin: 0 0 0 65px;
+  width: 90%;
+  background-color: #cdfeeb;
+
+
+}
+
+/*texto todo*/
+.logo{
+
+  border-radius: 15px 15px 15px 15px;
+  background-color: #ffffff;
+  width: 95%;
+  padding: 0px 0px 40px 0px;
+
+
+}
+
+/*titulo*/
+
+.atendimento_medico{
+
+  display: flex;
+
+}
+
+.image2{
+
+  display: flex;
+  margin: 20px 20px 20px 20px;
+  width: 10%;
+  height: 10%;
+  border-radius: 300px 300px 300px 300px;
+
+}
+
+h1 {
+
+  color: #a30000;
+  font-size: 40px;
+  padding: 30px 10px 0px 25px;
+  display: flex; 
+
+}
+
+/*sub-titulo*/
+
+h2{
+  
+  color: #2891d2;
+  text-align: left;
+  font-size: 20px;
+  padding: 0px 0px 0px 40px
+  
+}
+
+/*texto*/
+
+.formulario{
+  
+  text-align: left;
+  padding: 10px 0px 0px 40px;
+  
+}
+
+.formulario2{
+
+  text-align: left;
+  padding: 10px 0px 0px 40px;
+
+}
+
+.formulario3{
+
+  text-align: left;
+  padding: 10px 0px 0px 117px;
+
+}
+
+.formulario4{
+
+  text-align: left;
+  padding: 10px 0px 0px 108px;
+
+}
+
+select {
+
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+  outline: none;
+
+}
+
+option {
+
+  padding: 8px;
+  font-size: 14px;
+
+}
+
+/*segunda meiota*/
+
+.geral2{
+
+  display: flex;
+  font-size: 16px;
+  width: 30%;
+  height: 30%;
+  padding: 30px 0px 0px 180px;
+  text-align: center;
+}
+
+/*botao*/
+
+.botao {
+  
+  display: flex;
+  width: 100%; 
+  justify-content: center;  
+  margin-left: 0%;
+  
+}
+
+.botao2{
+
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #ff2424;
+  border-radius: 15px 15px 15px 15px;
+  padding: 20px 20px 20px 20px;
+  
+}
+
+/* modificação p mobile*/
+@media screen and (max-width: 768px) {
+
+  body {
+
+    margin: 0 10px 0 10px;
+    width: 100%;
+    padding: 10px;
+
+  }
+
+  /*geral*/
+
+  .logo {
+
+    width: 100%;
+
+  }
+
+  .atendimento_medico {
+
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  /*imagem*/
+
+  .image2{
+
+    display: flex;
+    margin: 60px 20px 0px 20px;
+    width: 50%;
+    height: 30%;
+    border-radius: 300px 300px 300px 300px;
+
+  }
+
+  /*textin*/
+  
+  .geral2{
+
+    display: flex;
+    font-size: 16px;
+    width: 80%;
+    height: 70%;
+    padding: 10px 0px 0px 20px;
+    text-align: center;
+  }
+
+
+  /*formulario*/
+  .formulario{
+
+    text-align: left;
+    padding: 10px 0px 20px 40px;
+
+  }
+
+  .formulario2{
+
+    text-align: left;
+    padding: 10px 0px 20px 65px;
+
+  }
+
+  .formulario3{
+
+    text-align: left;
+    padding: 10px 0px 20px 117px;
+
+  }
+
+  .formulario4{
+
+    text-align: left;
+    padding: 10px 0px 20px 108px;
+
+  }
+
+  /*botao*/
+
+  .botao {
+
+    display: flex;
+    width: 100%; 
+    justify-content: center;  
+
+  }
+
+}
